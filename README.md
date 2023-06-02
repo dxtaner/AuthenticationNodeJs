@@ -19,7 +19,7 @@ npm (Node Package Manager)
 - npm install <br>
 - npm run dev <br>
 - npm run start
-- 
+
 ## İnfo
 Create a .env file in the project root directory and set the following variables: 
 
