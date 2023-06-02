@@ -1,9 +1,27 @@
 # Node-JS-API-Authenctication
-- npm i <br>
+AuthenticationNodeJs
+This project aims to provide an authentication system using Node.js. Authentication is a crucial component for verifying user identities and enabling authorization processes.
+
+## Features
+User registration and login functionality
+Password reset mechanism
+Email verification
+Social media login (Facebook and Twitter)
+JWT-based session management
+
+## Requirements
+Make sure you have the following software installed before running the project:
+
+Node.js (v14 or higher)
+npm (Node Package Manager)
+
+## Installation
+- npm install <br>
 - npm run dev <br>
 - npm run start
-
+- 
 ## İnfo
+Create a .env file in the project root directory and set the following variables: 
 
 DB_HOST = { hostname  }<br>
 DB_PORT = { portno } <br>
@@ -28,6 +46,19 @@ REFRESH_TOKEN_SECRET = f3e51012f2b5a9a291c3b386cb4033b83c8cdb6cb73b1fb3761d6f10f
 - passport
 - passport-google-oauth20
 - passport-linkedin-oauth2
+
+## Contribution
+If you would like to contribute to this project, please follow these steps:
+
+Fork the project repository.
+Create a new branch for your feature (git checkout -b my-new-feature).
+Make the necessary changes and commit them (git commit -am 'Add new feature').
+Push your changes to the branch (git push origin my-new-feature).
+Open a new pull request and describe your changes.
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+This README provides essential information on how to use and contribute to the AuthenticationNodeJs project. For more detailed instructions, please refer to the source code and documentation.
 
 
 
